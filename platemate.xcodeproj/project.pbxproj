@@ -16,6 +16,7 @@
 		1CD828C92D70F53F00624EBD /* platemateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD828C82D70F53F00624EBD /* platemateTests.swift */; };
 		1CD828D32D70F53F00624EBD /* platemateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD828D22D70F53F00624EBD /* platemateUITests.swift */; };
 		1CD828D52D70F53F00624EBD /* platemateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD828D42D70F53F00624EBD /* platemateUITestsLaunchTests.swift */; };
+		1CD828E32D7107D200624EBD /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 1CD828E22D7107D200624EBD /* GoogleGenerativeAI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD828E32D7107D200624EBD /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +151,9 @@
 			dependencies = (
 			);
 			name = platemate;
+			packageProductDependencies = (
+				1CD828E22D7107D200624EBD /* GoogleGenerativeAI */,
+			);
 			productName = platemate;
 			productReference = 1CD828AF2D70F53D00624EBD /* platemate.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +226,9 @@
 				Base,
 			);
 			mainGroup = 1CD828A62D70F53D00624EBD;
+			packageReferences = (
+				1CD828E12D7107D200624EBD /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = 1CD828B02D70F53D00624EBD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -430,8 +438,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"platemate/Preview Content\"";
+				DEVELOPMENT_TEAM = GKXPLMKRLP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"fsfdsfdsf\"";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"This app uses the microphone to record your voice for restaurant recommendations.\"";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "\"fsdfdsf\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,8 +470,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"platemate/Preview Content\"";
+				DEVELOPMENT_TEAM = GKXPLMKRLP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"fsfdsfdsf\"";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"This app uses the microphone to record your voice for restaurant recommendations.\"";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "\"fsdfdsf\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -590,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1CD828E12D7107D200624EBD /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-gemini/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1CD828E22D7107D200624EBD /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CD828E12D7107D200624EBD /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		1CD828BD2D70F53E00624EBD /* platemate.xcdatamodeld */ = {

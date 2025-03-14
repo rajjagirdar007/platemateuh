@@ -441,7 +441,9 @@
 				DEVELOPMENT_TEAM = GKXPLMKRLP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"fsfdsfdsf\"";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = ggggg;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"This app uses the microphone to record your voice for restaurant recommendations.\"";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "\"fsdfdsf\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -473,7 +475,9 @@
 				DEVELOPMENT_TEAM = GKXPLMKRLP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"fsfdsfdsf\"";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = ggggg;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"This app uses the microphone to record your voice for restaurant recommendations.\"";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "\"fsdfdsf\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
